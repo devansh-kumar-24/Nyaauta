@@ -1,0 +1,224 @@
+.banner{
+      height: 83%;
+}
+
+.catcard{
+justify-content: center;
+align-items: center;
+margin-left: 11%;
+  width: 80%;
+}
+
+.link-card{
+  text-decoration: none;
+}
+
+#about{
+color: #ebecf0;
+}
+
+.loading{
+  width: 100%;
+  position : fixed;
+  background-color: #ffffff;
+  background-image: url(loadingc.gif);
+  background-repeat: no-repeat;
+  height: 100vh;
+  z-index: 20;
+  background-position: center;
+}
+
+@media screen and (max-width: 2560px) {
+  
+ 
+.catext{
+  position: relative;
+  top: -200px;
+  z-index: 1;
+}
+.catcard{
+  position: relative;
+top: -80px;
+margin:auto;
+  width: 95%;
+}
+ h1{
+  font-size: 3rem;
+  }
+  p{
+  font-size: 2rem;
+  }
+.crdimg{
+width:85% ;
+margin-left: 9.5%;
+
+}
+
+.propcard{
+  height: 40%;
+}
+
+#about{
+  position: relative;
+  z-index: 1;
+  padding: 1%;
+    
+}
+.clearfix{
+  margin-bottom: 2%;
+}
+
+}
+
+
+@media screen and (max-width: 1440px) {
+  
+ 
+.catext{
+  position: relative;
+  top: -150px;
+  z-index: 1;
+}
+.catcard{
+margin-top: -5px;
+margin-left: 2%;
+  width: 95%;
+  
+
+}
+ h1{
+  font-size: 2.5rem;
+  }
+p{
+  font-size: 1.5rem;
+  }
+
+.crdimg{
+width:85% ;
+margin-left: 9.5%;
+
+}
+
+.propcard{
+  height: 40%;
+}
+
+#about{
+  position: relative;
+  
+  z-index: 1;
+  padding: 1%;
+  margin-top: 2%;
+}
+.clearfix{
+  margin-bottom: -3.5%;
+}
+
+
+}
+
+
+@media screen and (max-width: 1024px) {
+ 
+.catext{
+  position: relative;
+  top: 10px;
+  z-index: 1;
+  margin-left: 10%;
+  width: 80%;
+}
+.catcard{
+   position: relative;
+top: 20px;
+margin-left: 2.8%;
+  width: 95%;
+  margin-bottom: 5%;
+
+}
+
+h1{
+  font-size: 1.5rem;
+  }
+p{
+  font-size: 1rem;
+  }
+.crdimg{
+width:85% ;
+margin-left: 9.5%;
+
+}
+
+.propcard{
+  height: 40%;
+}
+
+
+#about{
+  position: relative;
+  top: 70px;
+  z-index: 1;
+  padding: 1%;
+    margin-top: 5%;
+}
+.clearfix{
+  margin-bottom: -5%;
+}
+
+}
+
+
+
+@media screen and (max-width: 426px) {
+
+.catext{
+  position: relative;
+  top: 30px;
+  margin-left: 10.3%;
+  width: 80%;
+}
+.catcard{
+   position: relative;
+top: 20px;
+margin-left: 2.8%;
+  width: 95%;
+  margin-bottom: 5%;
+
+}
+
+ h1{
+  font-size: 1.5rem;
+  }
+p{
+  font-size: 1rem;
+  }
+
+.crdimg{
+width:85% ;
+margin-left: 8%;
+
+}
+
+.propcard{
+  height: 40%;
+}
+
+#about{
+  height: 13rem;
+  position: relative;
+  z-index: 1;
+}
+
+.clearfix{
+  margin-bottom:-7%;
+}
+}
+
+
+.propcard:hover{
+  
+  transform: scale3d(1.05, 1.05, 1.05);
+  filter: drop-shadow(0 0 5px #000000);
+   transition: 0.5s;
+}
+
+

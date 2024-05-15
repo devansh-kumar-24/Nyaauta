@@ -1,0 +1,324 @@
+
+.body {
+  background-color: #ebecf0;
+  scroll-behavior: smooth;
+  
+}
+.explore {
+  position: relative;
+  z-index: 1;
+  top: -23px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  height: 83%;
+}
+
+.catcard {
+  justify-content: center;
+  align-items: center;
+  margin-left: 11%;
+  width: 80%;
+}
+.link-card {
+  text-decoration: none;
+}
+#about {
+  color: #ebecf0;
+}
+
+.service {
+  height: 25rem;
+   
+  background-color: transparent;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.loading {
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  background-image: url(loadingc.gif);
+  background-repeat: no-repeat;
+  height: 100vh;
+  z-index: 20;
+  background-position: center;
+}
+
+@media screen and (max-width: 2560px) {
+  .context {
+    position: relative;
+    top: -240px;
+    left: 0px;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  .explore {
+    position: relative;
+    z-index: 1;
+    top: -160px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .catext {
+    position: relative;
+    top: -145px;
+  }
+
+  .catcard {
+    margin-top: -150px;
+    margin-left: 2%;
+    width: 95%;
+    margin-bottom: 4%;
+  }
+
+  .crdimg {
+    width: 85%;
+    margin-left: 9.5%;
+  }
+
+  .propcard {
+    height: 40%;
+  }
+
+  .services {
+    position: relative;
+    top: 25px;
+    z-index: 1;
+    padding: 1%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    margin: auto;
+  }
+
+  .service {
+    height: 35rem;
+
+    background-image: url(Bottom_Banner.avif);
+  }
+
+  .services p {
+    width: 70%;
+    margin: auto;
+    margin-top: 0%;
+    padding: 1%;
+  }
+
+  /* moving elements*/
+
+  .propcard:hover {
+    cursor: pointer;
+    transform: scale(1.02);
+
+    filter: drop-shadow(0px 0px 5px #150d00);
+    transition: 0.5s ease-in-out;
+  }
+  .explore:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: 0.5s ease-in-out;
+    filter: drop-shadow(0px 0px 4px #d68b00);
+  }
+  .services:hover {
+    filter: drop-shadow(0px 0px 0.1px #d68b00);
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: 0.5s ease-in-out;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .context {
+    position: relative;
+
+    top: -170px;
+    left: 0px;
+  }
+  .explore {
+    position: relative;
+    top: -100px;
+    scale: 1;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+
+  .catext {
+    position: relative;
+    top: -30px;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .catcard {
+    margin-top: 20px;
+    margin-left: 2.8%;
+    width: 95%;
+  }
+  .crdimg {
+    width: 85%;
+    margin-left: 9.5%;
+  }
+
+  .propcard {
+    height: 40%;
+  }
+  .services {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    z-index: 1;
+    padding: 1%;
+  }
+  .services p {
+    margin-top: 10%;
+    margin: auto;
+  }
+  .service {
+    height: 24rem;
+
+    background-color: antiquewhite;
+
+    background-image: url(Bottom_Banner.avif);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .context {
+    position: relative;
+
+    top: -10px;
+  }
+  .explore {
+    position: relative;
+    top: -15px;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .catext {
+    position: relative;
+    top: 10px;
+    margin-left: 10%;
+    width: 80%;
+  }
+  .catcard {
+    position: relative;
+    margin: auto;
+    top: -10px;
+    width: 95%;
+  }
+  .crdimg {
+    width: 85%;
+    margin: auto;
+  }
+
+  .propcard {
+    height: 40%;
+  }
+  .services {
+    position: relative;
+    top: 20px;
+    width: 80%;
+    margin-left: 10.3%;
+    z-index: 1;
+    padding: 1%;
+    margin-top: 5%;
+  }
+  .services p {
+    margin-top: 3%;
+    padding: 1%;
+  }
+  .service {
+    position: relative;
+
+    height: 17rem;
+
+    background-color: antiquewhite;
+
+    background-image: url(Bottom_Banner.avif);
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .context {
+    position: relative;
+    left: 0px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+
+  .explore {
+    position: relative;
+    z-index: 1;
+    top: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+  .catext {
+    position: relative;
+    top: 40px;
+    margin-left: 10.3%;
+    width: 80%;
+  }
+  .catcard {
+    margin-top: 50px;
+    margin-left: 2.5%;
+    width: 95%;
+  }
+  .crdimg {
+    width: 85%;
+    margin-left: 8%;
+  }
+
+  .propcard {
+    height: 40%;
+    margin-bottom: 10%;
+  }
+  .services {
+    position: relative;
+    top: 20px;
+    width: 100%;
+
+    z-index: 1;
+    padding: 1%;
+    margin: auto;
+    
+  }
+  .services p {
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 1%;
+  }
+  .service {
+      background-color: antiquewhite;
+
+    background-image: url(Bottom_Banner.avif);
+  }
+}
+
+hr {
+  margin: 0px;
+}
